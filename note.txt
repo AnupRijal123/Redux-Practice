@@ -1,0 +1,20 @@
+*store = state store hune thau
+
+*action= hamile state change garna lai gareko kam
+*action creator=creates action (it is function that returns action)
+
+*reducer= yesle hamro action anusar state change gardinxa
+    reducer is a function 
+    reducer takes old state and performs action on it and gives new state i.e
+    (oldState,action)=>newState
+    cons reducer=(state,action)=>{
+        return state
+    }
+
+*dispatch= send garnu (hamile state send garnu store ma)
+    
+*selector= select garnu (hamile store bata state linu
+)
+
+
+
