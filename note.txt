@@ -1,5 +1,3 @@
-*store = state store hune thau
-
 *action= hamile state change garna lai gareko kam
 *action creator=creates action (it is function that returns action)
 
@@ -13,8 +11,16 @@
 
 *dispatch= send garnu (hamile state send garnu store ma)
     
-*selector= select garnu (hamile store bata state linu
-)
+*selector= select garnu (hamile store bata state linu)
 
+*state should always be written inside single object
 
+*STORE
+    -it holds state 
+    -to access state we use => getState()
+    -to change/update state we usee => dispatch(action)
+    -to register listener we usee => subscribe(listener) 
+        [listener is function that gets executed everytime if state changes in store ]
+    -to unregister listener we call function returned by subscribe method
+*createStore(reducer)=creates store and takes reducer as parameter
 
