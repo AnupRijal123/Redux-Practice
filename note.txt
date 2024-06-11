@@ -10,8 +10,7 @@
     }
 
 *dispatch= send garnu (hamile state send garnu store ma)
-    
-*selector= select garnu (hamile store bata state linu)
+    dispatch(actioncreatorfunction)    
 
 *state should always be written inside single object
 
